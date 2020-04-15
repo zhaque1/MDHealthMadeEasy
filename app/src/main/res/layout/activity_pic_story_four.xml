@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/chapterFourColor"
+    tools:context=".PicStoryFour">
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="405dp"
+                    android:layout_height="493dp"
+                    android:src="@drawable/ch4_ps_1" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="171dp"
+                    android:text=" Healthy Food vs Junk Food "
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                    android:textSize="30sp" />
+
+            </LinearLayout>
+
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:layout_width="405dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="start"
+                        android:text="What makes the healthy food healthy? "
+                        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                        android:textSize="30sp" />
+
+                    <RadioGroup
+                        android:id="@+id/ch4_question1"
+                        android:layout_width="374dp"
+                        android:layout_height="wrap_content">
+
+                        <RadioButton
+                            android:id="@+id/ch4_a"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="start|center_horizontal"
+                            android:checked="false"
+                            android:text="A. The food tastes good "
+                            android:textSize="25dp" />
+
+                        <RadioButton
+                            android:id="@+id/ch4_b"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="start|center_horizontal"
+                            android:checked="false"
+                            android:text="B. The food contains nutrients and vitamins "
+                            android:textSize="25dp" />
+
+                        <RadioButton
+                            android:id="@+id/ch4_c"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="start|center_horizontal"
+                            android:checked="false"
+                            android:text="C. The food is saltier "
+                            android:textSize="25dp" />
+
+                    </RadioGroup>
+
+                    <TextView
+                        android:layout_width="405dp"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="start"
+                        android:text="Which choice below is considered junk? "
+                        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                        android:textSize="30sp" />
+
+                    <RadioGroup
+                        android:id="@+id/ch4_question2"
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp">
+
+                        <RadioButton
+                            android:id="@+id/ch4_a2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="start|center_horizontal"
+                            android:checked="false"
+                            android:text="A. Carrots "
+                            android:textSize="25dp" />
+
+                        <RadioButton
+                            android:id="@+id/ch4_b2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="start|center_horizontal"
+                            android:checked="false"
+                            android:text="B. Apples "
+                            android:textSize="25dp" />
+
+                        <RadioButton
+                            android:id="@+id/ch4_c2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="start|center_horizontal"
+                            android:checked="false"
+                            android:text="C. Cheeseburger "
+                            android:textSize="22sp" />
+
+                    </RadioGroup>
+
+                    <TextView
+                        android:layout_width="405dp"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="start"
+                        android:text="Which choice below is considered healthy? "
+                        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                        android:textSize="30sp" />
+
+                    <RadioGroup
+                        android:id="@+id/ch4_question3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <RadioButton
+                            android:id="@+id/ch4_a3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="start|center_horizontal"
+                            android:checked="false"
+                            android:text="A. Ice Cream "
+                            android:textSize="25dp" />
+
+                        <RadioButton
+                            android:id="@+id/ch4_b3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="74dp"
+                            android:layout_gravity="start|center_horizontal"
+                            android:checked="false"
+                            android:text="B. French Fries "
+                            android:textSize="25dp" />
+
+                        <RadioButton
+                            android:id="@+id/ch4_c3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="start|center_horizontal"
+                            android:checked="false"
+                            android:text="C. Broccoli  "
+                            android:textSize="25dp" />
+
+                    </RadioGroup>
+
+                    <Button
+                        android:id="@+id/ch4_submitBtn"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom|center_horizontal"
+                        android:text="Submit" />
+
+                </LinearLayout>
+
+            </ScrollView>
+
+        </LinearLayout>
+
+    </HorizontalScrollView>
+
+</LinearLayout>

@@ -1,0 +1,1416 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF9C4"
+    tools:context=".TitleOne">
+
+    <TextView
+        android:id="@+id/filterTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="40dp"
+        android:fontFamily="sans-serif"
+        android:text="Filter by chapter:"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Spinner
+        android:id="@+id/filterSpinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="260dp"
+        android:layout_marginTop="48dp"
+        android:entries="@array/filter_options"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/playMatchingGameBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:text="play matching game"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <HorizontalScrollView
+        android:id="@+id/horizScrollView1"
+        android:layout_width="432dp"
+        android:layout_height="580dp"
+        android:layout_marginTop="156dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:id="@+id/chapter1_w1"
+                android:layout_width="432dp"
+                android:layout_height="wrap_content"
+                android:background="@color/chapterOneColor"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/appointment" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="WORD: Appointment " />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="PRONUNCIATION: uh POINT ment " />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Definition: A time to meet or agree to see someone " />
+
+                <ImageButton
+                    android:id="@+id/apt_sc_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/playsoundclip" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/chapter1_w2"
+                android:layout_width="432dp"
+                android:layout_height="wrap_content"
+                android:background="@color/chapterOneColor"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/checkup" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="WORD: Checkup " />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="PRONUNCIATION: CHECK up " />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Definition: A visit to the doctor when you are not sick," />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="also called a well visit" />
+
+                <ImageButton
+                    android:id="@+id/check_up_sc_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/playsoundclip" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/chapter1_w3"
+                android:layout_width="432dp"
+                android:layout_height="wrap_content"
+                android:background="@color/chapterOneColor"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/copay" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="WORD: Copay " />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="PRONUNCIATION: Co paa " />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Definition: When you pay a set fee every time you go to" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="you go to the doctor and your health insurance pays the rest" />
+
+                <ImageButton
+                    android:id="@+id/co_pay_sc_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/playsoundclip" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/chapter1_w4"
+                android:layout_width="432dp"
+                android:layout_height="wrap_content"
+                android:background="@color/chapterOneColor"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/emergency" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="WORD: Emergency " />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="PRONUNCIATION: ee MER gen see " />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Definition: When there is a serious problem " />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="and you need help right away " />
+
+                <ImageButton
+                    android:id="@+id/emergency_sc_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/playsoundclip" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/chapter1_w5"
+                android:layout_width="432dp"
+                android:layout_height="wrap_content"
+                android:background="@color/chapterOneColor"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/healthinsurance" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="WORD: Health Insurance " />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="PRONUNCIATION: H elth In Sher uns " />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Definition: A program where you pau each month and" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="then the program pays for your health care " />
+
+                <ImageButton
+                    android:id="@+id/health_ins_sc_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/playsoundclip" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/chapter1_w6"
+                android:layout_width="432dp"
+                android:layout_height="wrap_content"
+                android:background="@color/chapterOneColor"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/medintpreter" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="WORD: Medical Interpreter " />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="PRONUNCIATION: MED uh cal in TERP ret er" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Definition: A person who is trained to translate information" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="from doctor to patient and from patient to doctor" />
+
+                <ImageButton
+                    android:id="@+id/medical_int_sc_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/playsoundclip" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/chapter1_w7"
+                android:layout_width="432dp"
+                android:layout_height="wrap_content"
+                android:background="@color/chapterOneColor"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/pcc" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="WORD: Primary Care Center " />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="PRONUNCIATION: Pri Mar EE Kare Senter " />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Definition: The place you go for all your basic health care needs" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=", could be a health center, health clinic, or doctor's office" />
+
+                <ImageButton
+                    android:id="@+id/pcc_sc_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/playsoundclip" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/chapter1_w8"
+                android:layout_width="432dp"
+                android:layout_height="wrap_content"
+                android:background="@color/chapterOneColor"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/urgentcareclinic" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="WORD: Urgent Care Center " />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="PRONUNCIATION: Ur gent Kare Senter" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Definition: A category of walk-in clinic. Primarily treat injuries" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="or illnesses requiring immediate care," />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=", but not serious enough to require an ER visit." />
+
+                <ImageButton
+                    android:id="@+id/ucc_sc_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/playsoundclip" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/chapter1_w9"
+                android:layout_width="432dp"
+                android:layout_height="wrap_content"
+                android:background="@color/chapterOneColor"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/healthclin" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="WORD: Health Clinic" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="PRONUNCIATION: H elth KLIN ic" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Definition: A health care center staffed by a group of health " />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="practitioners and nurses and provides typical health services." />
+
+                <ImageButton
+                    android:id="@+id/health_clinic_sc_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/playsoundclip" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/chapter1_w10"
+                android:layout_width="432dp"
+                android:layout_height="wrap_content"
+                android:background="@color/chapterOneColor"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/countyhealthdept" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="WORD: Health Department" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="PRONUNCIATION: H elth DEE part ment" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Definition: A division of a local or larger government " />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="responsible for the oversight and " />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="care of matters relating to public health" />
+
+                <ImageButton
+                    android:id="@+id/health_dept_sc_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/playsoundclip" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/chapter2_w1"
+                android:layout_width="432dp"
+                android:layout_height="wrap_content"
+                android:background="@color/chapterTwoColor"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/allergy" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="WORD: Allergy" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="PRONUNCIATION: AL ler JEE" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Definition: Reaction to foods, medications, or other things," />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=" may cause rash, hives, sneezing or other problems" />
+
+                <ImageButton
+                    android:id="@+id/allergy_sc_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/playsoundclip" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/chapter2_w2"
+                android:layout_width="432dp"
+                android:layout_height="wrap_content"
+                android:background="@color/chapterTwoColor"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/fever" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="WORD: Fever" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="PRONUNCIATION: FEE ver" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Definition: When your body temperature is too high" />
+
+                <ImageButton
+                    android:id="@+id/fever_sc_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/playsoundclip" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/chapter2_w3"
+                android:layout_width="432dp"
+                android:layout_height="wrap_content"
+                android:background="@color/chapterTwoColor"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/headache" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="WORD: Headache" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="PRONUNCIATION: Hed A eek" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Definition: Pain or ache in your head" />
+
+                <ImageButton
+                    android:id="@+id/headache_sc_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/playsoundclip" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/chapter2_w4"
+                android:layout_width="432dp"
+                android:layout_height="wrap_content"
+                android:background="@color/chapterTwoColor"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/healthhist" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="WORD: Health History" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="PRONUNCIATION: Helth HISS tor EE" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Definition: The health problems you had in the past" />
+
+                <ImageButton
+                    android:id="@+id/health_hist_sc_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/playsoundclip" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/chapter2_w5"
+                android:layout_width="432dp"
+                android:layout_height="wrap_content"
+                android:background="@color/chapterTwoColor"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/med" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="WORD: Medicine" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="PRONUNCIATION: MED uh sin" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Definition: Used when you are sick of have aches and pain" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=" to help make you feel well" />
+
+                <ImageButton
+                    android:id="@+id/medicine_sc_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/playsoundclip" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/chapter2_w6"
+                android:layout_width="432dp"
+                android:layout_height="wrap_content"
+                android:background="@color/chapterTwoColor"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/sorethroat" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="WORD: Sore Throat" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="PRONUNCIATION: SOR th ROT" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Definition: When your throat hurts, it is hard to swallow" />
+
+                <ImageButton
+                    android:id="@+id/sore_throat_sc_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/playsoundclip" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/chapter2_w7"
+                android:layout_width="432dp"
+                android:layout_height="wrap_content"
+                android:background="@color/chapterTwoColor"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/symp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="WORD: Symptoms" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="PRONUNCIATION: SIMP tums" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Definition: Something thta happens in the body that" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=" shows you an injury/illness" />
+
+                <ImageButton
+                    android:id="@+id/symptoms_sc_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/playsoundclip" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/chapter3_w1"
+                android:layout_width="432dp"
+                android:layout_height="wrap_content"
+                android:background="@color/chapterThreeColor"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/generic" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="WORD: Generic" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="PRONUNCIATION: Gen AIR ik" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Definition: Not a name brand, usually less expensive than " />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=" the the name brand and works as well as name brand" />
+
+                <ImageButton
+                    android:id="@+id/generic_sc_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/playsoundclip" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/chapter3_w2"
+                android:layout_width="432dp"
+                android:layout_height="wrap_content"
+                android:background="@color/chapterThreeColor"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/label" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="WORD: Label" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="PRONUNCIATION: LA bel" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Definition: on the medicine bottle or box that " />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=" describes how to take it" />
+
+                <ImageButton
+                    android:id="@+id/label_sc_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/playsoundclip" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/chapter3_w3"
+                android:layout_width="432dp"
+                android:layout_height="wrap_content"
+                android:background="@color/chapterThreeColor"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/otc" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="WORD: Over-the-counter (OTC)" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="PRONUNCIATION: O ver the COUNT er" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Definition: Medicine anyone can buy at a store, " />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=" you do not need a prescription" />
+
+                <ImageButton
+                    android:id="@+id/otc_sc_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/playsoundclip" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/chapter3_w4"
+                android:layout_width="432dp"
+                android:layout_height="wrap_content"
+                android:background="@color/chapterThreeColor"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/pharmacy" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="WORD: Pharmacy" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="PRONUNCIATION: FARM uh see " />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Definition: Where you go to buy medicine" />
+
+                <ImageButton
+                    android:id="@+id/pharmacy_sc_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/playsoundclip" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/chapter3_w5"
+                android:layout_width="432dp"
+                android:layout_height="wrap_content"
+                android:background="@color/chapterThreeColor"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/pharmacist" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="WORD: Pharmacist" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="PRONUNCIATION: FARM uh sist " />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Definition: A person who works in the pharmacy, " />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=" the person who fills prescriptions " />
+
+                <ImageButton
+                    android:id="@+id/pharmacist_sc_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/playsoundclip" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/chapter3_w6"
+                android:layout_width="432dp"
+                android:layout_height="wrap_content"
+                android:background="@color/chapterThreeColor"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/prescription" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="WORD: Prescription" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="PRONUNCIATION: Per SCRIP shun " />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Definition: You need one these from a doctor to " />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=" buy some kinds of medicines " />
+
+                <ImageButton
+                    android:id="@+id/prescription_sc_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/playsoundclip" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/chapter3_w7"
+                android:layout_width="432dp"
+                android:layout_height="wrap_content"
+                android:background="@color/chapterThreeColor"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/teaspoon" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="WORD: Teaspoon" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="PRONUNCIATION: Ti SPU n " />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Definition: Measurement of how much liquid medicine is needed " />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=" Common Abbreviation: TSP" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=" Conversion: 1 TSP = 5 MLs" />
+
+                <ImageButton
+                    android:id="@+id/tsp_sc_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/playsoundclip" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/chapter3_w8"
+                android:layout_width="432dp"
+                android:layout_height="wrap_content"
+                android:background="@color/chapterThreeColor"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/milliliter" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="WORD: Milliliter" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="PRONUNCIATION: Mil e LEE Ter " />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Definition: Measurement of how much liquid medicine is needed " />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=" Common Abbreviation: ML" />
+
+                <ImageButton
+                    android:id="@+id/ml_sc_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/playsoundclip" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/chapter3_w9"
+                android:layout_width="432dp"
+                android:layout_height="wrap_content"
+                android:background="@color/chapterThreeColor"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/tablespoon" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="WORD: Tablespoon" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="PRONUNCIATION: T A ble SPU n " />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Definition: Measurement of how much liquid medicine is needed " />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=" Common Abbreviation: TBSP" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=" Conversion: 1 TBSP = 3 TSPs = 15 MLs " />
+
+                <ImageButton
+                    android:id="@+id/tbsp_sc_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/playsoundclip" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/chapter3_w10"
+                android:layout_width="432dp"
+                android:layout_height="wrap_content"
+                android:background="@color/chapterThreeColor"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/vaccine" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="WORD: Vaccine" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="PRONUNCIATION: Vak seen" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Definition: Provides immunity against one or several diseases " />
+
+                <ImageButton
+                    android:id="@+id/vaccine_sc_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/playsoundclip" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/chapter3_w11"
+                android:layout_width="432dp"
+                android:layout_height="wrap_content"
+                android:background="@color/chapterThreeColor"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/immunization" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="WORD: Immunization" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="PRONUNCIATION: IM yoon ZA Shun" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Definition: The process of becomming immune or ressistant to an " />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=" infectious disease, typically by getting vaccines. It is good to " />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=" stay up to date on these and check with your doctor on what you need" />
+
+                <ImageButton
+                    android:id="@+id/immunization_sc_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/playsoundclip" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/chapter3_w12"
+                android:layout_width="432dp"
+                android:layout_height="wrap_content"
+                android:background="@color/chapterThreeColor"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/sideeffect" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="WORD: Side Effect" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="PRONUNCIATION: SIDE e feckt" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Definition: An unwanted result or symptom, you get from " />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=" taking some medication" />
+
+                <ImageButton
+                    android:id="@+id/side_effect_sc_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/playsoundclip" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/chapter4_w1"
+                android:layout_width="432dp"
+                android:layout_height="wrap_content"
+                android:background="@color/chapterFourColor"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/fiber" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="WORD: Fiber" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="PRONUNCIATION: FI bur" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Definition: Foods that help you feel full and " />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=" helps your stool come out" />
+
+                <ImageButton
+                    android:id="@+id/fiber_sc_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/playsoundclip" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/chapter4_w2"
+                android:layout_width="432dp"
+                android:layout_height="wrap_content"
+                android:background="@color/chapterFourColor"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/nutirent" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="WORD: Nutrient" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="PRONUNCIATION: New TREE ent" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Definition: In foods and needs by people to stay healthy " />
+
+                <ImageButton
+                    android:id="@+id/nutrient_sc_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/playsoundclip" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/chapter4_w3"
+                android:layout_width="432dp"
+                android:layout_height="wrap_content"
+                android:background="@color/chapterFourColor"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/obesity" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="WORD: Obesity" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="PRONUNCIATION: oh BEE sit ee" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Definition: Being very overweight, " />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=" a weight that is dangerous to your health " />
+
+                <ImageButton
+                    android:id="@+id/obesity_sc_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/playsoundclip" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/chapter4_w4"
+                android:layout_width="432dp"
+                android:layout_height="wrap_content"
+                android:background="@color/chapterFourColor"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/recipe" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="WORD: Recipe" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="PRONUNCIATION: Re si PEE" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Definition: List of what goes into a meal and how to prepare it" />
+
+                <ImageButton
+                    android:id="@+id/recipe_sc_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/playsoundclip" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/chapter4_w5"
+                android:layout_width="432dp"
+                android:layout_height="wrap_content"
+                android:background="@color/chapterFourColor"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/sodium" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="WORD: Sodium" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="PRONUNCIATION: So dee um" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Definition: Another word for salt " />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=" Should be eaten in limited amounts " />
+
+                <ImageButton
+                    android:id="@+id/sodium_sc_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/playsoundclip" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/chapter4_w6"
+                android:layout_width="432dp"
+                android:layout_height="wrap_content"
+                android:background="@color/chapterFourColor"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/vitamins" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="WORD: Vitamins" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="PRONUNCIATION: VI ta mins" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Definition: A kind of nutrient in foods that help fight sickness" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=" and keeps the body strong and healthy " />
+
+                <ImageButton
+                    android:id="@+id/vitamins_sc_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/playsoundclip" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </HorizontalScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
+
+

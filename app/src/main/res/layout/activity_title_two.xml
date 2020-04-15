@@ -1,0 +1,593 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#8DFFEB3B"
+    tools:context=".TitleTwo">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Crossword Puzzle Round 1" />
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="8dp"
+                android:paddingLeft="@dimen/activity_horizontal_margin"
+                android:paddingTop="@dimen/activity_vertical_margin"
+                android:paddingRight="@dimen/activity_horizontal_margin"
+                android:paddingBottom="@dimen/activity_vertical_margin"
+                android:stretchColumns="0, 1, 2, 3, 4, 5"
+                tools:context=".TitleTwo">
+
+                <TableRow
+                    android:id="@+id/tableRow0"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/block0_0"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:background="@color/chapterOneColor"
+                        android:minHeight="50dip"
+                        android:text="" />
+
+                    <TextView
+                        android:id="@+id/block0_1"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:minHeight="50dip"
+                        android:text="C" />
+
+                    <EditText
+                        android:id="@+id/block0_2"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:inputType="text"
+                        android:maxLength="1"
+                        android:minHeight="50dip" />
+
+                    <EditText
+                        android:id="@+id/block0_3"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:inputType="text"
+                        android:maxLength="1"
+                        android:minHeight="50dip" />
+
+                    <EditText
+                        android:id="@+id/block0_4"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:inputType="text"
+                        android:maxLength="1"
+                        android:minHeight="50dip" />
+
+                    <EditText
+                        android:id="@+id/block0_5"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:inputType="text"
+                        android:maxLength="1"
+                        android:minHeight="50dip" />
+
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tableRow1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/block1_0"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:background="@color/chapterOneColor"
+                        android:minHeight="50dip"
+                        android:text="" />
+
+                    <EditText
+                        android:id="@+id/block1_1"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:inputType="text"
+                        android:maxLength="1"
+                        android:minHeight="50dip"
+                        />
+
+                    <TextView
+                        android:id="@+id/block1_2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:background="@color/chapterOneColor"
+                        android:minHeight="50dip"
+                        android:text="" />
+
+                    <TextView
+                        android:id="@+id/block1_3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:background="@color/chapterOneColor"
+                        android:minHeight="50dip"
+                        android:text="" />
+
+                    <TextView
+                        android:id="@+id/block1_4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:background="@color/chapterOneColor"
+                        android:minHeight="50dip"
+                        android:text="" />
+
+                    <TextView
+                        android:id="@+id/block1_5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:background="@color/chapterOneColor"
+                        android:minHeight="50dip"
+                        android:text="" />
+
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tableRow2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/block2_0"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:minHeight="50dip"
+                        android:text="F" />
+
+                    <EditText
+                        android:id="@+id/block2_1"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:inputType="text"
+                        android:maxLength="1"
+                        android:minHeight="50dip"
+                        />
+
+                    <TextView
+                        android:id="@+id/block2_2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:minHeight="50dip"
+                        android:text="V" />
+
+                    <EditText
+                        android:id="@+id/block2_3"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:inputType="text"
+                        android:maxLength="1"
+                        android:minHeight="50dip"
+                        />
+
+                    <TextView
+                        android:id="@+id/block2_4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:minHeight="50dip"
+                        android:text="R" />
+
+                    <TextView
+                        android:id="@+id/block2_5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:background="@color/chapterOneColor"
+                        android:minHeight="50dip"
+                        android:text="" />
+
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tableRow3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/block3_0"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:background="@color/chapterOneColor"
+                        android:minHeight="50dip"
+                        android:text="" />
+
+                    <EditText
+                        android:id="@+id/block3_1"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:inputType="text"
+                        android:maxLength="1"
+                        android:minHeight="50dip"
+                        />
+
+                    <EditText
+                        android:id="@+id/block3_2"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:inputType="text"
+                        android:maxLength="1"
+                        android:minHeight="50dip"
+                        />
+
+                    <TextView
+                        android:id="@+id/block3_3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:background="@color/chapterOneColor"
+                        android:minHeight="50dip"
+                        android:text="" />
+
+                    <EditText
+                        android:id="@+id/block3_4"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:inputType="text"
+                        android:maxLength="1"
+                        android:minHeight="50dip"
+                        />
+
+                    <TextView
+                        android:id="@+id/block3_5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:background="@color/chapterOneColor"
+                        android:minHeight="50dip"
+                        android:text="" />
+
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tableRow4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/block4_0"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:background="@color/chapterOneColor"
+                        android:minHeight="50dip"
+                        android:text="" />
+
+                    <EditText
+                        android:id="@+id/block4_1"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:inputType="text"
+                        android:maxLength="1"
+                        android:minHeight="50dip"
+                        />
+
+                    <EditText
+                        android:id="@+id/block4_2"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:inputType="text"
+                        android:maxLength="1"
+                        android:minHeight="50dip"
+                        />
+
+                    <TextView
+                        android:id="@+id/block4_3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:background="@color/chapterOneColor"
+                        android:minHeight="50dip"
+                        android:text="" />
+
+                    <EditText
+                        android:id="@+id/block4_4"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:inputType="text"
+                        android:maxLength="1"
+                        android:minHeight="50dip"
+                        />
+
+                    <TextView
+                        android:id="@+id/block4_5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:background="@color/chapterOneColor"
+                        android:minHeight="50dip"
+                        android:text="" />
+
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tableRow5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/block5_0"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:background="@color/chapterOneColor"
+                        android:minHeight="50dip"
+                        android:text="" />
+
+                    <EditText
+                        android:id="@+id/block5_1"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:inputType="text"
+                        android:maxLength="1"
+                        android:minHeight="70dip" />
+
+                    <EditText
+                        android:id="@+id/block5_2"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:inputType="text"
+                        android:maxLength="1"
+                        android:minHeight="50dip"
+                        />
+
+                    <TextView
+                        android:id="@+id/block5_3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:background="@color/chapterOneColor"
+                        android:minHeight="50dip"
+                        android:text="" />
+
+                    <EditText
+                        android:id="@+id/block5_4"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:inputType="text"
+                        android:maxLength="1"
+                        android:minHeight="50dip"
+                        />
+
+                    <TextView
+                        android:id="@+id/block5_5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:background="@color/chapterOneColor"
+                        android:minHeight="50dip"
+                        android:text="" />
+
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tableRow6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/block6_0"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:background="@color/chapterOneColor"
+                        android:minHeight="50dip"
+                        android:text="" />
+
+                    <EditText
+                        android:id="@+id/block6_1"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:inputType="text"
+                        android:maxLength="1"
+                        android:minHeight="50dip"
+                        />
+
+                    <EditText
+                        android:id="@+id/block6_2"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:inputType="text"
+                        android:maxLength="1"
+                        android:minHeight="50dip"
+                        />
+
+                    <TextView
+                        android:id="@+id/block6_3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:background="@color/chapterOneColor"
+                        android:minHeight="50dip"
+                        android:text="" />
+
+                    <EditText
+                        android:id="@+id/block6_4"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:inputType="text"
+                        android:maxLength="1"
+                        android:minHeight="50dip"
+                        />
+
+                    <TextView
+                        android:id="@+id/block6_5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:background="@color/chapterOneColor"
+                        android:minHeight="50dip"
+                        android:text="" />
+
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tableRow7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/block7_0"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:background="@color/chapterOneColor"
+                        android:minHeight="50dip"
+                        android:text="" />
+
+                    <TextView
+                        android:id="@+id/block7_1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:background="@color/chapterOneColor"
+                        android:minHeight="50dip"
+                        android:text="" />
+
+                    <EditText
+                        android:id="@+id/block7_2"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:inputType="text"
+                        android:maxLength="1"
+                        android:minHeight="50dip"
+                        />
+
+                    <TextView
+                        android:id="@+id/block7_3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:background="@color/chapterOneColor"
+                        android:minHeight="50dip"
+                        android:text="" />
+
+                    <EditText
+                        android:id="@+id/block7_4"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:inputType="text"
+                        android:maxLength="1"
+                        android:minHeight="50dip"
+                        />
+
+                    <TextView
+                        android:id="@+id/block7_5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:background="@color/chapterOneColor"
+                        android:minHeight="50dip"
+                        android:text="" />
+
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tableRow8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/block8_0"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:background="@color/chapterOneColor"
+                        android:minHeight="50dip"
+                        android:text="" />
+
+                    <TextView
+                        android:id="@+id/block8_1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:background="@color/chapterOneColor"
+                        android:minHeight="50dip"
+                        android:text="" />
+
+                    <EditText
+                        android:id="@+id/block8_2"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:inputType="text"
+                        android:maxLength="1"
+                        android:minHeight="50dip"
+                        />
+
+                    <TextView
+                        android:id="@+id/block8_3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:background="@color/chapterOneColor"
+                        android:minHeight="50dip"
+                        android:text="" />
+
+                    <TextView
+                        android:id="@+id/block8_4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:background="@color/chapterOneColor"
+                        android:minHeight="50dip"
+                        android:text="" />
+
+                    <TextView
+                        android:id="@+id/block8_5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:background="@color/chapterOneColor"
+                        android:minHeight="50dip"
+                        android:text="" />
+
+                </TableRow>
+
+            </TableLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Hints: "/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1. Fees that the patient pays to doctor"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="2. A doctor visit when healthy, also called a wellness visit"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="3. When your body temperature is high"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="4. Provides immunity against one or several diseases"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="5. List of what goes into a meal and how to prepare it"/>
+
+            <Button
+                android:id="@+id/submitBtn_CW1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Submit" />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

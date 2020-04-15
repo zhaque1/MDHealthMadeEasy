@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.mdhealthmadeeasy">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".TakePartsPartTwo"></activity>
+        <activity android:name=".TitleTwoRoundTwo" />
+        <activity android:name=".RSQFour" />
+        <activity android:name=".RSQThree" />
+        <activity android:name=".RSQTwo" />
+        <activity android:name=".RSQOne" />
+        <activity android:name=".TitleFive" />
+        <activity android:name=".MatchingGame" />
+        <activity android:name=".PicStoryFive" />
+        <activity android:name=".PicStoryFour" />
+        <activity android:name=".PicStoryThree" />
+        <activity android:name=".PicStoryTwo" />
+        <activity android:name=".PicStoryOne" />
+        <activity android:name=".TitleFour" />
+        <activity android:name=".TitleThree" />
+        <activity android:name=".TitleTwo" />
+        <activity android:name=".TitleOne" />
+        <activity android:name=".Table_Of_Contents" />
+        <activity android:name=".Login_Page" />
+        <activity
+            android:name=".ui.login.LoginActivity"
+            android:label="@string/title_activity_login" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

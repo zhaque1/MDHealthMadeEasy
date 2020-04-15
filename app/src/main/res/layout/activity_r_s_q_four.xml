@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/chapterFourColor"
+    tools:context=".RSQFour">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/chapter4Title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="95dp"
+                android:layout_marginTop="28dp"
+                android:text="Chapter 4 Reading/Speaking" />
+
+            <TextView
+                android:id="@+id/chapter4Header"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="95dp"
+                android:layout_marginTop="28dp"
+                android:text="What is healthy eating?" />
+
+            <TextView
+                android:id="@+id/chapter4_Reading1"
+                android:layout_width="321dp"
+                android:layout_height="88dp"
+                android:layout_marginStart="44dp"
+                android:layout_marginTop="32dp"
+                android:text="Healthy eating means the body is getting the foods it needs to stay healthy. Healthy eating can prevent _(1)_ and other health problems." />
+
+            <TextView
+                android:id="@+id/chapter4_Header2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="44dp"
+                android:layout_marginTop="24dp"
+                android:text="More Variety" />
+            <TextView
+                android:id="@+id/chapter4_Reading2"
+                android:layout_width="296dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="44dp"
+                android:layout_marginTop="24dp"
+                android:text="To stay healthy you need to eat foods from the five food groups. These five food groups are 1) Fruits, 2) Vegetables, 3) _(2)_, 4) Protein Foods, and 5) Dairy." />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/ch4_prompt1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="24dp"
+                    android:text="1." />
+
+                <Spinner
+                    android:id="@+id/ch4_rq_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="12dp"
+                    android:layout_marginTop="24dp"
+                    android:entries="@array/rq_choices_ch4" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/ch4_prompt2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="24dp"
+                    android:text="2." />
+
+                <Spinner
+                    android:id="@+id/ch4_rq_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="12dp"
+                    android:layout_marginTop="24dp"
+                    android:entries="@array/rq_choices_ch4" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/ch4_RQSubmitBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Check Answers" />
+
+            <TextView
+                android:id="@+id/ch4_speaking_header"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="95dp"
+                android:layout_marginTop="28dp"
+                android:text="Dialogue: Practice" />
+
+            <TextView
+                android:id="@+id/food_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="44dp"
+                android:layout_marginTop="24dp"
+                android:text="Larisa: What fruits do you like to eat?" />
+
+            <TextView
+                android:id="@+id/food_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="44dp"
+                android:layout_marginTop="12dp"
+                android:text="Marc: I like to eat oranges and apples." />
+            <TextView
+                android:id="@+id/food_3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="44dp"
+                android:layout_marginTop="12dp"
+                android:text="Larisa: What vegetables do you like to eat?" />
+            <TextView
+                android:id="@+id/food_4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="44dp"
+                android:layout_marginTop="12dp"
+                android:text="Marc: I like to eat broccoli and carrots" />
+            <TextView
+                android:id="@+id/food_5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="44dp"
+                android:layout_marginTop="12dp"
+                android:text="Larisa: Do you like to eat spinach?" />
+            <TextView
+                android:id="@+id/food_6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="44dp"
+                android:layout_marginTop="12dp"
+                android:text="Marc: No, I do not like to eat spinach. Do you?" />
+            <TextView
+                android:id="@+id/food_7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="44dp"
+                android:layout_marginTop="12dp"
+                android:text="Larisa: No, I do not like spinach, either. Do you like to eat strawberries?" />
+            <TextView
+                android:id="@+id/doctor_8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="44dp"
+                android:layout_marginTop="12dp"
+                android:text="Marc: Yes, strawberries are my favorite food." />
+        </LinearLayout>
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

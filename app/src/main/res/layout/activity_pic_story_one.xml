@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/chapterOneColor"
+    tools:context=".PicStoryOne">
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="405dp"
+                    android:layout_height="493dp"
+                    android:src="@drawable/ch1_ps_1" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="84dp"
+                    android:text="Maria is feeling sick "
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                    android:textSize="36sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="405dp"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/ch1_ps_2"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Maria calls the doctor "
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                    android:textSize="36sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="405dp"
+                    android:layout_height="465dp"
+                    android:src="@drawable/ch1_ps_3"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="146dp"
+                    android:text="Maria makes an appointment with the doctor "
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                    android:textSize="36sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="405dp"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/ch1_ps_4"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="139dp"
+                    android:text="Maria needs an interperter "
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                    android:textSize="36sp" />
+
+            </LinearLayout>
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:layout_width="405dp"
+                        android:layout_height="match_parent"
+                        android:text="Who did Maria call? "
+                        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                        android:textSize="36sp"
+                        />
+
+                    <RadioGroup
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/question1">
+
+                        <RadioButton
+                            android:id="@+id/a"
+                            android:layout_width="314dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:checked="false"
+                            android:text="A. Maria called her mom"
+                            android:textSize="25dp" />
+
+                        <RadioButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="B. Maria called her friend"
+                            android:id="@+id/b"
+                            android:textSize="25dp"
+                            android:layout_gravity="center_horizontal"
+                            android:checked="false" />
+
+                        <RadioButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="C. Maria called her doctor"
+                            android:id="@+id/c"
+                            android:layout_gravity="center_horizontal"
+                            android:checked="false"
+                            android:textSize="25dp" />
+
+                    </RadioGroup>
+
+                    <TextView
+                        android:layout_width="405dp"
+                        android:layout_height="match_parent"
+                        android:text="What did Maria make with the doctor? "
+                        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                        android:textSize="36sp"
+                        />
+
+                    <RadioGroup
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/question2">
+
+                        <RadioButton
+                            android:id="@+id/a2"
+                            android:layout_width="280dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:checked="false"
+                            android:text="A. Maria made an appointment"
+                            android:textSize="25dp" />
+
+                        <RadioButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="B. Maria made a cake"
+                            android:id="@+id/b2"
+                            android:textSize="25dp"
+                            android:layout_gravity="center_horizontal"
+                            android:checked="false" />
+
+                        <RadioButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="C. Maria made nothing"
+                            android:id="@+id/c2"
+                            android:layout_gravity="center_horizontal"
+                            android:checked="false"
+                            android:textSize="25dp" />
+
+                    </RadioGroup>
+
+                    <TextView
+                        android:layout_width="405dp"
+                        android:layout_height="match_parent"
+                        android:text="What does Maria request from the doctor? "
+                        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                        android:textSize="36sp"
+                        />
+
+                    <RadioGroup
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/question3">
+
+                        <RadioButton
+                            android:id="@+id/a3"
+                            android:layout_width="349dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:checked="false"
+                            android:text="A. Maria requests an interpreter"
+                            android:textSize="25dp" />
+
+                        <RadioButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="B. Maria requests a discount"
+                            android:id="@+id/b3"
+                            android:textSize="25dp"
+                            android:layout_gravity="center_horizontal"
+                            android:checked="false" />
+
+                        <RadioButton
+                            android:id="@+id/c3"
+                            android:layout_width="348dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:checked="false"
+                            android:text="C. Maria requests drugs"
+                            android:textSize="25dp" />
+
+                    </RadioGroup>
+
+                    <Button
+                        android:id="@+id/submitBtn"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Submit" />
+
+                </LinearLayout>
+
+            </ScrollView>
+
+        </LinearLayout>
+
+    </HorizontalScrollView>
+
+</LinearLayout>

@@ -1,0 +1,146 @@
+<resources>
+    <string name="app_name">MDHealthMadeEasy</string>
+    <string name="title_activity_login">Sign in</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="splash_icon">splash_icon</string>
+    <string name="md_health_made_easy">MD Health Made Easy</string>
+    <string name="choose_option"> Choose an answer </string>
+    <string-array name="take_parts_options_a">
+        <item>A.Arm</item>
+        <item>A.Head</item>
+        <item>A.Feet</item>
+        <item>A.Hand</item>
+        <item>A.Shoulder</item>
+        <item>A.Back</item>
+    </string-array>
+
+    <string-array name="take_parts_options_b">
+        <item>B.Arm</item>
+        <item>B.Head</item>
+        <item>B.Feet</item>
+        <item>B.Hand</item>
+        <item>B.Shoulder</item>
+        <item>B.Back</item>
+    </string-array>
+
+    <string-array name="take_parts_options_c">
+        <item>C.Arm</item>
+        <item>C.Head</item>
+        <item>C.Feet</item>
+        <item>C.Hand</item>
+        <item>C.Shoulder</item>
+        <item>C.Back</item>
+    </string-array>
+
+    <string-array name="take_parts_options_d">
+        <item>D.Arm</item>
+        <item>D.Head</item>
+        <item>D.Feet</item>
+        <item>D.Hand</item>
+        <item>D.Shoulder</item>
+        <item>D.Back</item>
+    </string-array>
+
+    <string-array name="take_parts_options_e">
+        <item>E.Arm</item>
+        <item>E.Head</item>
+        <item>E.Feet</item>
+        <item>E.Hand</item>
+        <item>E.Shoulder</item>
+        <item>E.Back</item>
+    </string-array>
+
+    <string-array name="take_parts_options_f">
+        <item>F.Arm</item>
+        <item>F.Head</item>
+        <item>F.Feet</item>
+        <item>F.Hand</item>
+        <item>F.Shoulder</item>
+        <item>F.Back</item>
+    </string-array>
+
+    <string-array name="filter_options">
+        <item>NONE</item>
+        <item>Chapter 1</item>
+        <item>Chapter 2</item>
+        <item>Chapter 3</item>
+        <item>Chapter 4</item>
+    </string-array>
+
+    <string-array name="matching_game_choices">
+        <item>Sodium</item>
+        <item>Health History</item>
+        <item>Fever</item>
+        <item>Fiber</item>
+        <item>Pharmacy</item>
+        <item>Headache</item>
+        <item>Prescription</item>
+        <item>Appointment</item>
+    </string-array>
+
+    <string-array name="rq_choices_ch1">
+        <item>Emergency</item>
+        <item>Check up</item>
+        <item>Appointment</item>
+        <item>Primary Care Center</item>
+    </string-array>
+
+    <string-array name="rq_choices_ch2">
+        <item>Health History</item>
+        <item>Symptoms</item>
+        <item>Medicine</item>
+    </string-array>
+
+    <string-array name="rq_choices_ch4">
+        <item>Vitamins</item>
+        <item>Fiber</item>
+        <item>Obesity</item>
+    </string-array>
+
+    <string-array name="take_parts_options_partTwo_A">
+        <item>A.Quantity</item>
+        <item>A.Refill Count</item>
+        <item>A.Directions</item>
+        <item>A.Patient</item>
+        <item>A.Medication Name</item>
+    </string-array>
+
+    <string-array name="take_parts_options_partTwo_B">
+        <item>B.Quantity</item>
+        <item>B.Refill Count</item>
+        <item>B.Directions</item>
+        <item>B.Patient</item>
+        <item>B.Medication Name</item>
+    </string-array>
+
+    <string-array name="take_parts_options_partTwo_C">
+        <item>C.Quantity</item>
+        <item>C.Refill Count</item>
+        <item>C.Directions</item>
+        <item>C.Patient</item>
+        <item>C.Medication Name</item>
+    </string-array>
+
+    <string-array name="take_parts_options_partTwo_D">
+        <item>D.Quantity</item>
+        <item>D.Refill Count</item>
+        <item>D.Directions</item>
+        <item>D.Patient</item>
+        <item>D.Medication Name</item>
+    </string-array>
+
+    <string-array name="take_parts_options_partTwo_E">
+        <item>E.Quantity</item>
+        <item>E.Refill Count</item>
+        <item>E.Directions</item>
+        <item>E.Patient</item>
+        <item>E.Medication Name</item>
+    </string-array>
+</resources>

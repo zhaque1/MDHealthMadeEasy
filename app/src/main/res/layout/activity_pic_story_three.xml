@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/chapterThreeColor"
+    tools:context=".PicStoryThree">
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="405dp"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/ch3_ps_1" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="84dp"
+                    android:text="Alicia's prescription"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                    android:textSize="36sp" />
+
+            </LinearLayout>
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:layout_width="405dp"
+                        android:layout_height="match_parent"
+                        android:text="What is the name of the medicine? "
+                        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                        android:textSize="36sp"
+                        />
+
+                    <RadioGroup
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/ch3_question1">
+
+                        <RadioButton
+                            android:id="@+id/ch3_a"
+                            android:layout_width="314dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="start|center_horizontal"
+                            android:checked="false"
+                            android:text="A. Minocycline "
+                            android:textSize="25dp" />
+
+                        <RadioButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="B. Hanes "
+                            android:id="@+id/ch3_b"
+                            android:textSize="25dp"
+                            android:layout_gravity="start|center_horizontal"
+                            android:checked="false" />
+
+                        <RadioButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="C. Rodrigues "
+                            android:id="@+id/ch3_c"
+                            android:layout_gravity="start|center_horizontal"
+                            android:checked="false"
+                            android:textSize="25dp" />
+
+                    </RadioGroup>
+
+                    <TextView
+                        android:layout_width="405dp"
+                        android:layout_height="match_parent"
+                        android:text="How much medicine will she take each day? "
+                        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                        android:textSize="36sp"
+                        />
+
+                    <RadioGroup
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/ch3_question2">
+
+                        <RadioButton
+                            android:id="@+id/ch3_a2"
+                            android:layout_width="280dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="start|center_horizontal"
+                            android:checked="false"
+                            android:text="A. 2 "
+                            android:textSize="25dp" />
+
+                        <RadioButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="B. 5 "
+                            android:id="@+id/ch3_b2"
+                            android:textSize="25dp"
+                            android:layout_gravity="start|center_horizontal"
+                            android:checked="false" />
+
+                        <RadioButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="C. 4 "
+                            android:id="@+id/ch3_c2"
+                            android:layout_gravity="start|center_horizontal"
+                            android:checked="false"
+                            android:textSize="25dp" />
+
+                    </RadioGroup>
+
+                    <TextView
+                        android:layout_width="405dp"
+                        android:layout_height="match_parent"
+                        android:text="How many pills are in the bottle? "
+                        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                        android:textSize="36sp"
+                        />
+
+                    <RadioGroup
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/ch3_question3">
+
+                        <RadioButton
+                            android:id="@+id/ch3_a3"
+                            android:layout_width="349dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="start|center_horizontal"
+                            android:checked="false"
+                            android:text="A. 60 "
+                            android:textSize="25dp" />
+
+                        <RadioButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="B. 10 "
+                            android:id="@+id/ch3_b3"
+                            android:textSize="25dp"
+                            android:layout_gravity="start|center_horizontal"
+                            android:checked="false" />
+
+                        <RadioButton
+                            android:id="@+id/ch3_c3"
+                            android:layout_width="348dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="start|center_horizontal"
+                            android:checked="false"
+                            android:text="C. 30 "
+                            android:textSize="25dp" />
+
+                    </RadioGroup>
+
+                    <Button
+                        android:id="@+id/ch3_submitBtn"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Submit" />
+
+                </LinearLayout>
+
+            </ScrollView>
+
+        </LinearLayout>
+
+    </HorizontalScrollView>
+
+</LinearLayout>

@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/chapterTwoColor"
+    tools:context=".PicStoryTwo">
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="405dp"
+                    android:layout_height="493dp"
+                    android:src="@drawable/ch2_ps_1" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="171dp"
+                    android:text="John is a healthy person. Once a year he goes to the doctor for a checkup "
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                    android:textSize="30sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="405dp"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/ch2_ps_2"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="164dp"
+                    android:text="John calls his primary care center to make an appointment "
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                    android:textSize="36sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="405dp"
+                    android:layout_height="465dp"
+                    android:src="@drawable/ch2_ps_3"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="146dp"
+                    android:text="The nurse at the front desk hands him a health history form "
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                    android:textSize="36sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="405dp"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/ch2_ps_4"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="139dp"
+                    android:text="The form asks if he has any allergies and if he takes medicine "
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                    android:textSize="36sp" />
+
+            </LinearLayout>
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:layout_width="405dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="start"
+                        android:text="What does John do once a year? "
+                        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                        android:textSize="30sp" />
+
+                    <RadioGroup
+                        android:id="@+id/ch2_question1"
+                        android:layout_width="374dp"
+                        android:layout_height="wrap_content">
+
+                        <RadioButton
+                            android:id="@+id/ch2_a"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="start|center_horizontal"
+                            android:checked="false"
+                            android:text="A. John schedules a checkup "
+                            android:textSize="25dp" />
+
+                        <RadioButton
+                            android:id="@+id/ch2_b"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="start|center_horizontal"
+                            android:checked="false"
+                            android:text="B. John plays golf "
+                            android:textSize="25dp" />
+
+                        <RadioButton
+                            android:id="@+id/ch2_c"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="start|center_horizontal"
+                            android:checked="false"
+                            android:text="C. John calls his mom "
+                            android:textSize="25dp" />
+
+                    </RadioGroup>
+
+                    <TextView
+                        android:layout_width="405dp"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="start"
+                        android:text="What kind of form does John get from the front desk? "
+                        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                        android:textSize="30sp" />
+
+                    <RadioGroup
+                        android:id="@+id/ch2_question2"
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp">
+
+                        <RadioButton
+                            android:id="@+id/ch2_a2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="start|center_horizontal"
+                            android:checked="false"
+                            android:text="A. He is given a tax form"
+                            android:textSize="25dp" />
+
+                        <RadioButton
+                            android:id="@+id/ch2_b2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="start|center_horizontal"
+                            android:checked="false"
+                            android:text="B. He is given a health history form "
+                            android:textSize="25dp" />
+
+                        <RadioButton
+                            android:id="@+id/ch2_c2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="start|center_horizontal"
+                            android:checked="false"
+                            android:text="C. He is given a job application form "
+                            android:textSize="22sp" />
+
+                    </RadioGroup>
+
+                    <TextView
+                        android:layout_width="405dp"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="start"
+                        android:text="Why is the form important? "
+                        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                        android:textSize="30sp" />
+
+                    <RadioGroup
+                        android:id="@+id/ch2_question3"
+                        android:layout_width="match_parent"
+                        android:layout_height="193dp">
+
+                        <RadioButton
+                            android:id="@+id/ch2_a3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:checked="false"
+                            android:text="A. Provide patient health information to the doctor "
+                            android:textSize="25dp" />
+
+                        <RadioButton
+                            android:id="@+id/ch2_b3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="74dp"
+                            android:layout_gravity="center_horizontal"
+                            android:checked="false"
+                            android:text="B. Provide financial information to the doctor "
+                            android:textSize="25dp" />
+
+                        <RadioButton
+                            android:id="@+id/ch2_c3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="start|center_horizontal"
+                            android:checked="false"
+                            android:text="C. Provide personal information "
+                            android:textSize="25dp" />
+
+                    </RadioGroup>
+
+                    <Button
+                        android:id="@+id/ch2_submitBtn"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom|center_horizontal"
+                        android:text="Submit" />
+
+                </LinearLayout>
+
+            </ScrollView>
+
+        </LinearLayout>
+
+    </HorizontalScrollView>
+
+</LinearLayout>

@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/chapterThreeColor"
+    tools:context=".RSQThree">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/chapter3Title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="95dp"
+                android:layout_marginTop="28dp"
+                android:text="Chapter 3 Reading/Speaking" />
+
+            <TextView
+                android:id="@+id/chapter3_Reading1"
+                android:layout_width="325dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="44dp"
+                android:layout_marginTop="32dp"
+                android:text="Alicia went to the doctor. The doctor gave her a prescription. Alicia took the prescription to the pharmacy. She gave the prescription to the pharmacist. The pharmacist filled the prescription and gave her the medicine. Alicia asked the pharmacist, “How do I take this medicine?” The pharmacist said, “Take two pills, twice a day.”" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="405dp"
+                    android:layout_height="match_parent"
+                    android:text="What did the doctor give her? "
+                    />
+
+                <RadioGroup
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/ch3_RQ_question1">
+
+                    <RadioButton
+                        android:id="@+id/ch3_RQ_a"
+                        android:layout_width="314dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="start|center_horizontal"
+                        android:checked="false"
+                        android:text="A.Food " />
+
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="B.Prescription "
+                        android:id="@+id/ch3_RQ_b"
+                        android:layout_gravity="start|center_horizontal"
+                        android:checked="false" />
+
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="C.Excuse Note "
+                        android:id="@+id/ch3_RQ_c"
+                        android:layout_gravity="start|center_horizontal"
+                        android:checked="false" />
+
+                </RadioGroup>
+
+             </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="405dp"
+                    android:layout_height="match_parent"
+                    android:text="Who does she take the item to? "
+                    />
+
+                <RadioGroup
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/ch3_RQ_question2">
+
+                    <RadioButton
+                        android:id="@+id/ch3_RQ_2_a"
+                        android:layout_width="314dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="start|center_horizontal"
+                        android:checked="false"
+                        android:text="A.Pharmacist " />
+
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="B.Nurse "
+                        android:id="@+id/ch3_RQ_2_b"
+                        android:layout_gravity="start|center_horizontal"
+                        android:checked="false" />
+
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="C.Dentist"
+                        android:id="@+id/ch3_RQ_2_c"
+                        android:layout_gravity="start|center_horizontal"
+                        android:checked="false" />
+
+                </RadioGroup>
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/ch3_RQSubmitBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Check Answers" />
+
+            <TextView
+                android:id="@+id/ch3_speaking_header"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="95dp"
+                android:layout_marginTop="28dp"
+                android:text="Dialogue: Practice" />
+
+            <TextView
+                android:id="@+id/pharmacist_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="44dp"
+                android:layout_marginTop="24dp"
+                android:text="Pharmacist: Hello, How may I help you?" />
+
+            <TextView
+                android:id="@+id/pharmacist_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="44dp"
+                android:layout_marginTop="12dp"
+                android:text="Patient: I need to find an over-the-counter medication for allergies" />
+            <TextView
+                android:id="@+id/pharmacist_3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="44dp"
+                android:layout_marginTop="12dp"
+                android:text="Pharmacist: What are your symptoms?" />
+            <TextView
+                android:id="@+id/pharmacist_4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="44dp"
+                android:layout_marginTop="12dp"
+                android:text="Patient: I have a headache and sneeze often" />
+            <TextView
+                android:id="@+id/pharmacist_5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="44dp"
+                android:layout_marginTop="12dp"
+                android:text="Pharmacist: Here is a medicine that works for many people. Try this medicine." />
+            <TextView
+                android:id="@+id/pharmacist_6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="44dp"
+                android:layout_marginTop="12dp"
+                android:text="Patient: Will this medicine cause side effects?" />
+            <TextView
+                android:id="@+id/pharmacist_7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="44dp"
+                android:layout_marginTop="12dp"
+                android:text="Pharmacist: The label says this medicine may make you feel sleepy" />
+            <TextView
+                android:id="@+id/pharmacist_8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="44dp"
+                android:layout_marginTop="12dp"
+                android:text="Patient: Is there a medicine that will not make me sleepy?" />
+            <TextView
+                android:id="@+id/pharmacist_9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="44dp"
+                android:layout_marginTop="12dp"
+                android:text="Pharmacist: Yes, try this one." />
+
+            <TextView
+                android:id="@+id/pharmacist_10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="44dp"
+                android:layout_marginTop="12dp"
+                android:text="Patient: Thank you." />
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

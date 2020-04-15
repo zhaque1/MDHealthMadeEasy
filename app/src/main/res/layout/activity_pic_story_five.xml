@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/chapterFiveColor"
+    tools:context=".PicStoryFive">
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="405dp"
+                    android:layout_height="493dp"
+                    android:src="@drawable/ch5_ps_1" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="84dp"
+                    android:text=" Staying Healthy "
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                    android:textSize="36sp" />
+
+            </LinearLayout>
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:layout_width="405dp"
+                        android:layout_height="match_parent"
+                        android:text="What is not one way to stay healthy? "
+                        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                        android:textSize="36sp"
+                        />
+
+                    <RadioGroup
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/ch5_question1">
+
+                        <RadioButton
+                            android:id="@+id/ch5_a"
+                            android:layout_width="314dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="start|center_horizontal"
+                            android:checked="false"
+                            android:text="A. Eating Fruits "
+                            android:textSize="25dp" />
+
+                        <RadioButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="B. Smoking "
+                            android:id="@+id/ch5_b"
+                            android:textSize="25dp"
+                            android:layout_gravity="start|center_horizontal"
+                            android:checked="false" />
+
+                        <RadioButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="C. Eating vegetables "
+                            android:id="@+id/ch5_c"
+                            android:layout_gravity="start|center_horizontal"
+                            android:checked="false"
+                            android:textSize="25dp" />
+
+                    </RadioGroup>
+
+                    <TextView
+                        android:layout_width="405dp"
+                        android:layout_height="match_parent"
+                        android:text="Which statement is true regarding eating healthy help? "
+                        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                        android:textSize="36sp"
+                        />
+
+                    <RadioGroup
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/ch5_question2">
+
+                        <RadioButton
+                            android:id="@+id/ch5_a2"
+                            android:layout_width="280dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="start|center_horizontal"
+                            android:checked="false"
+                            android:text="A. Helps your body stay strong and not get sick "
+                            android:textSize="25dp" />
+
+                        <RadioButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="B. Healthy food does not help  "
+                            android:id="@+id/ch5_b2"
+                            android:textSize="25dp"
+                            android:layout_gravity="start|center_horizontal"
+                            android:checked="false" />
+
+                        <RadioButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="C. Healthy food can cause heart problems  "
+                            android:id="@+id/ch5_c2"
+                            android:layout_gravity="start|center_horizontal"
+                            android:checked="false"
+                            android:textSize="25dp" />
+
+                    </RadioGroup>
+
+                    <TextView
+                        android:layout_width="405dp"
+                        android:layout_height="match_parent"
+                        android:text=" which choice is a alternate way to stay healthy? "
+                        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                        android:textSize="36sp"
+                        />
+
+                    <RadioGroup
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/ch5_question3">
+
+                        <RadioButton
+                            android:id="@+id/ch5_a3"
+                            android:layout_width="349dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="start|center_horizontal"
+                            android:checked="false"
+                            android:text="A. Setting and reaching health goals "
+                            android:textSize="25dp" />
+
+                        <RadioButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="B. Do not eat food "
+                            android:id="@+id/ch5_b3"
+                            android:textSize="25dp"
+                            android:layout_gravity="start|center_horizontal"
+                            android:checked="false" />
+
+                        <RadioButton
+                            android:id="@+id/ch5_c3"
+                            android:layout_width="348dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="start|center_horizontal"
+                            android:checked="false"
+                            android:text="C. Skip yearly checkups "
+                            android:textSize="25dp" />
+
+                    </RadioGroup>
+
+                    <Button
+                        android:id="@+id/ch5_submitBtn"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Submit" />
+
+                </LinearLayout>
+
+            </ScrollView>
+
+        </LinearLayout>
+
+    </HorizontalScrollView>
+
+</LinearLayout>
